@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/voll.css">
+	<link rel="stylesheet" href="js/slick/slick.css">
+	<link rel="stylesheet" href="js/slick/slick-theme.css">
+	<link rel="stylesheet" href="js/styler/jquery.formstyler.css">
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+			<div class="header__top">
+				<div class="wrapper">
+					<div class="header__region">
+						<div class="desc">Ваш регион:</div>
+						<div class="city">Санкт - Петербург?</div>
+						<a data-fancybox-type="iframe" href="cities.html" class="btn cities__open yes">да</a>
+						<a data-fancybox-type="iframe" href="cities.html" class="btn cities__open no">нет</a>
+					</div>
+					<div class="header__search">
+						<input placeholder="Поиск по сайту" type="text">
+						<button><i class="icon_search"></i></button>
+					</div>
+				</div>	
+			</div><!--header__top-->
+			<div class="header__center">
+				<div class="wrapper">
+					<a href="#" class="header__logo"></a>
+					<div class="header__name">Российская любительская<br>волейбольная лига</div>
+					<div class="header__sign_up header__item">
+						<div class="icon"><i class="icon_shirt"></i></div>
+						<div class="text">
+							<div class="t1">Присоединиться к команде</div>
+							<a data-fancybox-type="iframe" href="send.html" class="send__open t2">Регистрация</a>
+						</div>
+					</div>
+					<div class="header__login header__item">
+						<div class="icon"><i class="icon_voll"></i></div>
+						<div class="text">
+							<div class="t1">Уже зарегистрирован</div>
+							<a href="#" class="t2">Вход</a>
+						</div>
+					</div>
+				</div>	
+			</div><!--header__center-->
+			<div class="header__bot">
+				<div class="wrapper">
+					<nav class="header__nav">
+						<a href="#" class="link">Лиги</a>
+						<a href="#" class="link active">Форум</a>
+						<a href="#" class="link">Команда <i class="icon_down"></i></a>
+						<a href="#" class="link">Соревнования</a>
+					</nav>
+				</div>
+			</div><!--header__bot-->
+	</header><!--header-->
+	<main class="content">
+        <section class="main_nav">
+            <div class="wrapper">
+                <select class="main_nav__league styler">
+                    <option>мужская лига</option>
+                    <option>лайт лига</option>
+                    <option>премьер лига</option>
+                    <option>мега лига</option>
+                </select>
+                <div class="main_nav__links">
+                    <a href="#" class="link">лайт лига</a>
+                    <a href="#" class="link">супер лига</a>
+                    <a href="#" class="link">премьер лига</a>
+                    <a href="#" class="link">медиум лига</a>
+                    <a href="#" class="link">спарта лига</a>
+                    <a href="#" class="link">мега лига</a>
+                    <a href="#" class="link all">все лиги</a>
+                </div>
+            </div>	
+        </section><!--main_nav-->
+		<section class="main_sign_up">
+			<div class="wrapper">
+				<div class="cont">
+					<div class="icons">
+						<i class="icon_star"></i>
+						<i class="icon_star"></i>
+						<i class="icon_star"></i>
+					</div>
+					<div class="t1">подать заявку</div>
+					<div class="t2">на участие</div>
+					<div class="t3">Подай заявку и прими участие в ближайших соревнованиях</div>
+					<a href="feedback.html" data-fancybox-type="iframe" class="feedback__open btn">
+						<span>Заявка</span>
+						<i class="icon_plus_bold"></i>
+					</a>
+				</div>
+			</div>
+		</section><!--main_sign_up-->
+		<section class="main_slider">
+			<div style="background-image: url(img/league_lite.jpg);" class="item">
+				<i class="icon icon_league_lite"></i>
+				<div class="league">лайт лига</div>
+				<div class="score">3 : 2</div>
+				<div class="teams">Гипротрубопровод – Мегаполис Банк</div>
+				<div class="date">12 сентября 2016</div>
+			</div>
+			<div style="background-image: url(img/league_super.jpg);" class="item">
+				<i class="icon icon_league_super"></i>
+				<div class="league">супер лига</div>
+				<div class="score">4 : 2</div>
+				<div class="teams">Скалайн – Форекс</div>
+				<div class="date">8 сентября 2016</div>
+			</div>
+			<div style="background-image: url(img/league_premier.jpg);" class="item">
+				<i class="icon icon_league_premier"></i>
+				<div class="league">премьер лига</div>
+				<div class="score">1 : 2</div>
+				<div class="teams">Электросталь – ГЛОБЭКСБАНК</div>
+				<div class="date">11 сентября 2016</div>
+			</div>
+			<div style="background-image: url(img/league_lite.jpg);" class="item">
+				<i class="icon icon_league_lite"></i>
+				<div class="league">лайт лига</div>
+				<div class="score">3 : 2</div>
+				<div class="teams">Гипротрубопровод – Мегаполис Банк</div>
+				<div class="date">12 сентября 2016</div>
+			</div>
+			<div style="background-image: url(img/league_super.jpg);" class="item">
+				<i class="icon icon_league_super"></i>
+				<div class="league">супер лига</div>
+				<div class="score">4 : 2</div>
+				<div class="teams">Скалайн – Форекс</div>
+				<div class="date">8 сентября 2016</div>
+			</div>
+			<div style="background-image: url(img/league_premier.jpg);" class="item">
+				<i class="icon icon_league_premier"></i>
+				<div class="league">премьер лига</div>
+				<div class="score">1 : 2</div>
+				<div class="teams">Электросталь – ГЛОБЭКСБАНК</div>
+				<div class="date">11 сентября 2016</div>
+			</div>
+		</section><!--main_slider-->
+		<div class="main_sides_wrap">
+			<div class="wrapper">
+				<section class="main_center">
+					<section class="main_parti">
+						<div class="main_parti__title">как <span>участвовать в лиге?</span></div>
+						<div class="main_parti__item">
+							<div class="icon"><i class="icon_pencil"></i></div>
+							<div class="text">
+								<div class="title">Зарегистрироватся на сайте</div>
+								<div class="desc">
+									Регистрация на сайте даст Вам дополнительные<br>
+									возможности. Вы сможете отслеживать матчи вашей<br>
+									команды, а также команд соперников.
+								</div>
+								<a href="#" class="link">зарегистрироваться</a>
+							</div>
+						</div>
+						<div class="main_parti__item">
+							<div class="icon"><i class="icon_sign"></i></div>
+							<div class="text">
+								<div class="title">Подать заявку на участие</div>
+								<div class="desc">
+									Для регистрации команды подает стандартную<br> 
+									заявку с указанием количества игроков, их <br>
+									номеров, ФИО, пола, номера паспорта и<br>
+									подписями спортсменов. 
+								</div>
+								<a href="#" class="link">Ознакомится с правилами участия</a>
+							</div>
+						</div>
+					</section><!--main_parti-->
+					<section class="main_last">
+						<div class="main_last__title">результаты последних игр</div>
+						<div class="main_last__cont">
+							<section class="main_last__img_cont">
+								<figure class="main_last__img main_last__winner">
+									<div class="img"><img src="" alt=""></div>
+									<figcaption class="name">Гипротрубопровод</figcaption>
+								</figure>
+								<div class="main_last__score">
+									<div class="number">3 - 2</div>
+									<div class="text">финальный счет</div>
+								</div>
+								<figure class="main_last__img main_last__winner main_last__winner__right">
+									<div class="img"><img src="" alt=""></div>
+									<figcaption class="name">Мегаполис Банк</figcaption>
+								</figure>
+							</section><!--main_last__img_cont-->
+							<section class="main_last__table">
+								<div class="row head">
+									<div class="cell">период</div>
+									<div class="cell">1</div>
+									<div class="cell">2</div>
+									<div class="cell">3</div>
+									<div class="cell">4</div>
+									<div class="cell">5</div>
+								</div>
+								<div class="row">
+									<div class="cell">гипротрубопровод</div>
+									<div class="cell">25</div>
+									<div class="cell">23</div>
+									<div class="cell">23</div>
+									<div class="cell">25</div>
+									<div class="cell">25</div>
+								</div>
+								<div class="row">
+									<div class="cell">мегаполис банк</div>
+									<div class="cell">23</div>
+									<div class="cell">25</div>
+									<div class="cell">25</div>
+									<div class="cell">21</div>
+									<div class="cell">21</div>
+								</div>
+							</section><!--main_last__table-->
+						</div><!--main_last__cont-->
+					</section><!--main_last-->
+					<section class="main_news">
+						<div class="main_news__title">
+							<div class="text">новости</div>
+							<a href="#" class="all_news">все новости</a>
+						</div><!--main_news__title-->
+						<div class="main_news__cont">
+							<a href="#" class="main_news__item">
+								<figure class="img"><img src="img/news_1.jpg" alt=""></figure>
+								<div class="text">
+									<div class="date">17 сентября</div>
+									<div class="desc">В Санкт - Петербурге стартует Премьер лига, в ней примут участие 27 команд</div>
+								</div>
+							</a>
+							<a href="#" class="main_news__item main_news__item_purple">
+								<figure class="img"><img src="img/news_2.jpg" alt=""></figure>
+								<div class="text">
+									<div class="date">19 сентября</div>
+									<div class="desc">В Санкт - Петербурге стартует Премьер лига, в ней примут участие 27 команд</div>
+								</div>
+							</a>
+							<div class="main_be_first">
+								<div class="title">Всегда первый</div>
+								<div class="text">Профессиональное изготовление<br>интернет-баннеров</div>
+							</div>
+							<a href="#" class="main_news__item">
+								<figure class="img"><img src="img/news_3.jpg" alt=""></figure>
+								<div class="text">
+									<div class="date">19 сентября</div>
+									<div class="desc">В Санкт - Петербурге стартует Премьер лига, в ней примут участие 27 команд</div>
+								</div>
+							</a>
+							<a href="#" class="main_news__item">
+								<figure class="img"><img src="img/news_4.jpg" alt=""></figure>
+								<div class="text">
+									<div class="date">13 сентября</div>
+									<div class="desc">В Санкт - Петербурге стартует Премьер лига, в ней примут участие 27 команд</div>
+								</div>
+							</a>
+						</div><!--main_news__cont-->
+					</section><!--main__news-->
+				</section><!--main_center-->
+				<aside class="main_aside">
+					<section class="league_choice">
+						<select class="title styler cats">
+							<option>спарта лига</option>
+							<option>лайт лига</option>
+							<option>супер лига</option>
+							<option>премьер лига</option>
+							<option>медиум лига</option>
+						</select>
+						<select class="title group styler">
+							<option>Группа A</option>
+							<option>Группа B</option>
+							<option>Группа C</option>
+						</select>
+						<div class="league_choice">
+							<div class="league_choice__table">
+								<div class="row head">
+									<div class="cell">Позиция</div>
+									<div class="cell">в</div>
+									<div class="cell">л</div>
+									<div class="cell">о</div>
+								</div>
+							</div>
+							<div class="league_choice__table league_choice__table_cont">
+								<div class="row">
+									<div class="cell">01</div>
+									<div class="cell">гипротрубопровод</div>
+									<div class="cell">15</div>
+									<div class="cell">2</div>
+									<div class="cell">42</div>
+								</div>
+								<div class="row">
+									<div class="cell">02</div>
+									<div class="cell">Мегаполис банк</div>
+									<div class="cell">15</div>
+									<div class="cell">2</div>
+									<div class="cell">42</div>
+								</div>
+								<div class="row">
+									<div class="cell">03</div>
+									<div class="cell">гипротрубопровод</div>
+									<div class="cell">15</div>
+									<div class="cell">2</div>
+									<div class="cell">42</div>
+								</div>
+								<div class="row">
+									<div class="cell">04</div>
+									<div class="cell">Мегаполис банк</div>
+									<div class="cell">15</div>
+									<div class="cell">2</div>
+									<div class="cell">42</div>
+								</div>
+								<div class="row">
+									<div class="cell">05</div>
+									<div class="cell">гипротрубопровод</div>
+									<div class="cell">15</div>
+									<div class="cell">2</div>
+									<div class="cell">42</div>
+								</div>
+								<div class="row">
+									<div class="cell">06</div>
+									<div class="cell">Мегаполис банк</div>
+									<div class="cell">15</div>
+									<div class="cell">2</div>
+									<div class="cell">42</div>
+								</div>
+								<div class="row">
+									<div class="cell">07</div>
+									<div class="cell">гипротрубопровод</div>
+									<div class="cell">15</div>
+									<div class="cell">2</div>
+									<div class="cell">42</div>
+								</div>
+							</div>
+						</div><!--league_choice-->
+					</section><!--league_choice-->
+					<section class="league_next">
+						<div class="main_last__title title_2_row">
+							<div class="title">Следующий матч</div>
+							<div class="date">21 сентября 2016</div>
+						</div>
+						<div class="league_next__cont">
+							<figure class="league_next__img">
+								<div class="img"><img src="" alt=""></div>
+							</figure>
+							<figcaption>Гипротрубопровод</figcaption>
+						</div>
+						<div class="league_next__vs">vs</div>
+						<div class="league_next__cont">
+							<figure class="league_next__img">
+								<div class="img"><img src="" alt=""></div>
+							</figure>
+							<figcaption>Мегаполиск банк</figcaption>
+						</div>
+					</section><!--league_next-->
+					<div class="aside_banner"><img src="img/banner.jpg" alt=""></div>
+					<section class="social">
+						<a href="#" class="line insta">
+							<div class="icon"><i class="icon_inst"></i></div>
+							<div class="name">instagram</div>
+						</a>
+						<a href="#" class="line youtube">
+							<div class="icon"><i class="icon_youtube"></i></div>
+							<div class="name">youtube</div>
+						</a>
+						<a href="#" class="line vk">
+							<div class="icon"><i class="icon_vk"></i></div>
+							<div class="name">вконтакте</div>
+						</a>
+						<a href="#" class="line twitter">
+							<div class="icon"><i class="icon_twitter"></i></div>
+							<div class="name">twitter</div>
+						</a>
+					</section><!--social-->
+				</aside><!--main_aside-->
+			</div><!--wrapper-->
+		</div><!--main_sides_wrap-->
+	</main><!--content-->
+	<footer class="footer">
+		<div class="wrapper">
+			<a href="#" class="footer__logo"></a>
+			<div class="footer__links">
+				<a href="#" class="link">Положения о РЛВЛ</a>
+				<a href="#" class="link">Контакты</a>
+				<a href="#" class="link">Правила волейбола</a>
+				<a href="#" class="link">Полезные ссылки</a>
+				<a href="#" class="link">Производство для судей</a>
+				<a href="#" class="link">Форум</a>
+				<a href="#" class="link">Полезная информация</a>
+			</div>
+			<div class="footer__social">
+				<a class="item inst"><i class="icon_inst"></i></a>
+				<a class="item youtube"><i class="icon_youtube"></i></a>
+				<a class="item vk"><i class="icon_vk"></i></a>
+				<a class="item twitter"><i class="icon_twitter"></i></a>
+				<a href="feedback.html" data-fancybox-type="iframe" class="feedback__open footer__feedback">обратная связь <i class="icon_plus_bold"></i></a>
+			</div>
+		</div><!--wrapper-->
+		<div class="footer_bot">
+			<div class="wrapper">
+				<div class="footer__copy"><span>©</span> РЛВЛ Российская любительская волейбольная лига</div>
+				<div class="footer__by">
+					<a href="#" class="logo_picksart"><img src="img/logo_picksart.png" alt=""></a>
+				</div>
+			</div>
+		</div><!--footer_bot-->
+	</footer><!--footer-->
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/slick/slick.min.js"></script>
+	<script src="js/styler/jquery.formstyler.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/jquery.mask.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
